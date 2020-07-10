@@ -17,6 +17,12 @@ public class GameMenu : MonoBehaviour
 		print("funfou..");
 		SceneManager.LoadScene("birdHard");
 	}
+	// method to redirect the proper seine
+	public void GameInit()
+	{
+		print("funfou..");
+		SceneManager.LoadScene("gameMenu");
+	}
 	// Start is called before the first frame update
 	void Start()
     {
